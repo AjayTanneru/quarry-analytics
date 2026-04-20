@@ -8,7 +8,7 @@ seasonal patterns and COVID-19 business impact.
 
 ## Business Background
 - **Business:** Black Granite Quarry Export Operations
-- **Location:** Narasimhulagudem, Mahabubabad, Telangana
+- **Location:** India
 - **Period:** 2018 - 2021
 - **Product:** Black Granite Blocks (Gangsaw, Big Block, Small Block)
 - **Markets:** USA, China, Poland, UK, India
