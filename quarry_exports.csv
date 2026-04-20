@@ -1,0 +1,101 @@
+load_id,dispatch_date,payment_date,dispatch_days,buyer_name,destination,block_type,block_size,cubic_meters,price_per_m3,total_revenue,profit,payment_status,is_rainy_season,year
+LOAD0003,2018-01-06,2018-01-04,2,Sri Satya Surya Company,Poland,Small Block High,200x100 Above,3.18,78433.94,249419.93,249419.93,Paid,False,2018
+LOAD0001,2018-01-07,2018-01-06,1,Samantula Granites and Marbles,China,Big Block Low,240x140 Below,4.28,90871.65,388930.66,388930.66,Paid,False,2018
+LOAD0002,2018-01-11,2018-01-10,1,Sri Satya Surya Company,USA,Small Block High,200x100 Above,3.14,81207.11,254990.33,254990.33,Paid,False,2018
+LOAD0005,2018-02-15,2018-02-13,2,R P Granites,China,Big Block Low,240x140 Below,3.88,94349.08,366074.43,366074.43,Paid,False,2018
+LOAD0006,2018-02-19,2018-02-16,3,United Universal Granites,India,Small Block Low,200x100 Below,2.95,66592.85,196448.91,196448.91,Paid,False,2018
+LOAD0004,2018-02-25,2018-02-24,1,United Universal Granites,China,Big Block Low,240x140 Below,4.11,86755.44,356564.86,356564.86,Paid,False,2018
+LOAD0010,2018-03-02,2018-02-28,2,Sri Satya Surya Company,USA,Small Block High,200x100 Above,3.6,83374.99,300149.96,300149.96,Paid,False,2018
+LOAD0009,2018-03-06,2018-03-04,2,Sri Satya Surya Company,UK,Big Block High,240x140 Above,4.57,95313.13,435581.0,435581.0,Paid,False,2018
+LOAD0008,2018-03-07,2018-03-06,1,Universal Stone Exports,Poland,Big Block Low,240x140 Below,4.41,87829.02,387325.98,387325.98,Paid,False,2018
+LOAD0007,2018-03-18,2018-03-16,2,Sri Satya Surya Company,USA,Gangsaw,Large Slab,4.52,107039.83,483820.03,483820.03,Paid,False,2018
+LOAD0013,2018-04-24,2018-04-23,1,Samantula Granites and Marbles,USA,Small Block High,200x100 Above,3.29,76112.64,250410.59,250410.59,Paid,False,2018
+LOAD0012,2018-04-25,2018-04-24,1,Sri Vishnu Granites Pvt Ltd,USA,Gangsaw,Large Slab,4.8,106317.94,510326.11,510326.11,Paid,False,2018
+LOAD0011,2018-04-25,2018-04-23,2,Universal Stone Exports,UK,Small Block Low,200x100 Below,2.89,68399.44,197674.38,197674.38,Paid,False,2018
+LOAD0014,2018-05-03,2018-05-02,1,Sri Vishnu Granites Pvt Ltd,USA,Big Block Low,240x140 Below,3.57,88726.19,316752.5,316752.5,Paid,False,2018
+LOAD0015,2018-05-08,2018-05-06,2,Samantula Granites and Marbles,China,Gangsaw,Large Slab,4.56,107920.81,492118.89,492118.89,Paid,False,2018
+LOAD0016,2018-05-12,2018-05-10,2,Samantula Granites and Marbles,India,Big Block Low,240x140 Below,4.06,88946.34,361122.14,361122.14,Paid,False,2018
+LOAD0017,2018-06-01,2018-05-31,1,Universal Stone Exports,USA,Big Block High,240x140 Above,4.24,97560.68,413657.28,413657.28,Paid,True,2018
+LOAD0018,2018-07-10,2018-07-09,1,Sri Satya Surya Company,China,Big Block Low,240x140 Below,3.53,91227.69,322033.75,322033.75,Paid,True,2018
+LOAD0019,2018-08-05,2018-08-02,3,Samantula Granites and Marbles,India,Small Block Low,200x100 Below,3.04,67921.43,206481.15,206481.15,Paid,True,2018
+LOAD0022,2018-09-01,2018-08-31,1,Samantula Granites and Marbles,China,Gangsaw,Large Slab,5.15,104505.72,538204.46,538204.46,Paid,False,2018
+LOAD0021,2018-09-12,2018-09-10,2,United Universal Granites,China,Big Block Low,240x140 Below,3.82,86598.79,330807.38,330807.38,Paid,False,2018
+LOAD0020,2018-09-19,2018-09-17,2,United Universal Granites,Poland,Small Block High,200x100 Above,3.93,82464.96,324087.29,324087.29,Paid,False,2018
+LOAD0023,2018-10-07,2018-10-05,2,Sri Satya Surya Company,USA,Big Block Low,240x140 Below,3.92,87498.97,342995.96,342995.96,Paid,False,2018
+LOAD0025,2018-10-17,2018-10-15,2,R P Granites,UK,Small Block High,200x100 Above,3.25,81570.43,265103.9,265103.9,Paid,False,2018
+LOAD0024,2018-10-24,2018-10-21,3,Sri Vishnu Granites Pvt Ltd,UK,Big Block Low,240x140 Below,3.82,90169.12,344446.04,344446.04,Paid,False,2018
+LOAD0027,2018-11-01,2018-10-31,1,United Universal Granites,China,Big Block Low,240x140 Below,4.18,90278.41,377363.75,377363.75,Paid,False,2018
+LOAD0026,2018-11-17,2018-11-16,1,R P Granites,USA,Big Block Low,240x140 Below,4.11,90024.11,369999.09,369999.09,Paid,False,2018
+LOAD0028,2018-11-23,2018-11-20,3,R P Granites,UK,Big Block Low,240x140 Below,3.87,87679.44,339319.43,339319.43,Paid,False,2018
+LOAD0030,2018-12-06,2018-12-05,1,Samantula Granites and Marbles,USA,Big Block Low,240x140 Below,4.09,91598.08,374636.15,374636.15,Paid,False,2018
+LOAD0029,2018-12-20,2018-12-18,2,Samantula Granites and Marbles,USA,Big Block Low,240x140 Below,4.32,92685.11,400399.68,400399.68,Paid,False,2018
+LOAD0032,2019-01-11,2019-01-10,1,Sri Satya Surya Company,Poland,Gangsaw,Large Slab,4.71,110455.93,520247.43,520247.43,Paid,False,2019
+LOAD0033,2019-01-16,2019-01-14,2,United Universal Granites,India,Gangsaw,Large Slab,5.02,107369.12,538992.98,538992.98,Paid,False,2019
+LOAD0031,2019-01-19,2019-01-16,3,Sri Vishnu Granites Pvt Ltd,Poland,Small Block High,200x100 Above,3.94,79180.58,311971.49,311971.49,Paid,False,2019
+LOAD0034,2019-02-12,2019-02-11,1,Samantula Granites and Marbles,China,Small Block Low,200x100 Below,3.38,67820.95,229234.81,229234.81,Paid,False,2019
+LOAD0035,2019-02-16,2019-02-13,3,Samantula Granites and Marbles,Poland,Small Block High,200x100 Above,3.89,82239.0,319909.71,319909.71,Paid,False,2019
+LOAD0036,2019-02-17,2019-02-15,2,Sri Vishnu Granites Pvt Ltd,India,Small Block High,200x100 Above,3.58,78978.26,282742.17,282742.17,Paid,False,2019
+LOAD0038,2019-03-01,2019-02-28,1,Samantula Granites and Marbles,UK,Small Block Low,200x100 Below,2.68,69065.28,185094.95,185094.95,Paid,False,2019
+LOAD0040,2019-03-06,2019-03-04,2,R P Granites,China,Small Block Low,200x100 Below,2.99,72842.69,217799.64,217799.64,Paid,False,2019
+LOAD0039,2019-03-17,2019-03-16,1,United Universal Granites,China,Small Block High,200x100 Above,3.51,81090.66,284628.22,284628.22,Paid,False,2019
+LOAD0037,2019-03-18,2019-03-16,2,Sri Satya Surya Company,India,Big Block High,240x140 Above,4.49,99484.24,446684.24,446684.24,Paid,False,2019
+LOAD0041,2019-04-01,2019-03-29,3,Samantula Granites and Marbles,China,Gangsaw,Large Slab,4.7,112446.97,528500.76,528500.76,Paid,False,2019
+LOAD0043,2019-04-09,2019-04-08,1,Sri Vishnu Granites Pvt Ltd,India,Small Block Low,200x100 Below,2.93,73266.58,214671.08,214671.08,Paid,False,2019
+LOAD0042,2019-04-17,2019-04-16,1,Samantula Granites and Marbles,India,Small Block High,200x100 Above,3.94,83631.43,329507.83,329507.83,Paid,False,2019
+LOAD0044,2019-05-20,2019-05-17,3,Universal Stone Exports,China,Small Block Low,200x100 Below,2.89,72457.96,209403.5,209403.5,Paid,False,2019
+LOAD0046,2019-05-23,2019-05-21,2,Sri Vishnu Granites Pvt Ltd,UK,Big Block Low,240x140 Below,3.8,88402.96,335931.25,335931.25,Paid,False,2019
+LOAD0045,2019-05-25,2019-05-23,2,United Universal Granites,USA,Big Block High,240x140 Above,4.93,95704.16,471821.51,471821.51,Paid,False,2019
+LOAD0047,2019-06-11,2019-06-09,2,R P Granites,China,Small Block Low,200x100 Below,2.8,69438.47,194427.72,194427.72,Paid,True,2019
+LOAD0048,2019-07-26,2019-07-23,3,United Universal Granites,USA,Gangsaw,Large Slab,5.13,106637.01,547047.86,547047.86,Paid,True,2019
+LOAD0049,2019-08-16,2019-08-14,2,United Universal Granites,Poland,Small Block High,200x100 Above,3.89,76220.93,296499.42,296499.42,Paid,True,2019
+LOAD0052,2019-09-12,2019-09-11,1,Samantula Granites and Marbles,China,Small Block High,200x100 Above,3.84,77555.04,297811.35,297811.35,Paid,False,2019
+LOAD0051,2019-09-17,2019-09-15,2,Sri Satya Surya Company,UK,Big Block Low,240x140 Below,3.63,90200.19,327426.69,327426.69,Paid,False,2019
+LOAD0050,2019-09-19,2019-09-18,1,United Universal Granites,Poland,Big Block High,240x140 Above,4.54,97865.41,444308.96,444308.96,Paid,False,2019
+LOAD0055,2019-10-12,2019-10-11,1,United Universal Granites,China,Gangsaw,Large Slab,4.67,106220.81,496051.18,496051.18,Paid,False,2019
+LOAD0053,2019-10-23,2019-10-22,1,Samantula Granites and Marbles,UK,Big Block High,240x140 Above,4.52,98229.56,443997.61,443997.61,Paid,False,2019
+LOAD0054,2019-10-26,2019-10-23,3,Sri Vishnu Granites Pvt Ltd,UK,Big Block High,240x140 Above,4.03,104626.48,421644.71,421644.71,Paid,False,2019
+LOAD0058,2019-11-14,2019-11-13,1,Universal Stone Exports,USA,Gangsaw,Large Slab,4.81,115274.62,554470.92,554470.92,Paid,False,2019
+LOAD0056,2019-11-22,2019-11-21,1,R P Granites,UK,Small Block Low,200x100 Below,2.78,73184.06,203451.69,203451.69,Paid,False,2019
+LOAD0057,2019-11-22,2019-11-21,1,Sri Vishnu Granites Pvt Ltd,UK,Big Block Low,240x140 Below,3.75,88703.75,332639.06,332639.06,Paid,False,2019
+LOAD0060,2019-12-22,2019-12-21,1,Universal Stone Exports,Poland,Small Block High,200x100 Above,3.05,78996.9,240940.54,240940.54,Paid,False,2019
+LOAD0059,2019-12-26,2019-12-25,1,Universal Stone Exports,China,Small Block High,200x100 Above,3.17,79470.81,251922.47,251922.47,Paid,False,2019
+LOAD0061,2020-01-01,2019-12-31,1,Sri Vishnu Granites Pvt Ltd,India,Small Block Low,200x100 Below,2.66,66993.98,178203.99,178203.99,Paid,False,2020
+LOAD0062,2020-02-27,2020-02-25,2,R P Granites,India,Big Block Low,240x140 Below,4.14,89624.28,371044.52,371044.52,Paid,False,2020
+LOAD0063,2020-03-12,2020-03-09,3,R P Granites,China,Gangsaw,Large Slab,5.46,114458.86,624945.38,624945.38,Paid,False,2020
+LOAD0064,2020-04-12,2020-04-09,3,Universal Stone Exports,UK,Big Block High,240x140 Above,4.04,101182.54,408777.46,408777.46,Paid,False,2020
+LOAD0065,2020-05-08,2020-05-07,1,Sri Satya Surya Company,Poland,Big Block High,240x140 Above,4.68,98406.25,460541.25,460541.25,Paid,False,2020
+LOAD0066,2020-09-26,2020-09-25,1,R P Granites,India,Big Block High,240x140 Above,4.63,103774.72,480476.95,480476.95,Paid,False,2020
+LOAD0067,2020-10-25,2020-10-23,2,Sri Satya Surya Company,India,Small Block Low,200x100 Below,3.25,72147.84,234480.48,234480.48,Paid,False,2020
+LOAD0069,2020-11-09,2020-11-07,2,R P Granites,UK,Gangsaw,Large Slab,5.03,109962.17,553109.72,553109.72,Paid,False,2020
+LOAD0068,2020-11-18,2020-11-17,1,Samantula Granites and Marbles,India,Small Block Low,200x100 Below,2.74,71258.91,195249.41,195249.41,Paid,False,2020
+LOAD0070,2020-12-27,2020-12-24,3,Sri Vishnu Granites Pvt Ltd,India,Gangsaw,Large Slab,4.55,115043.96,523450.02,523450.02,Paid,False,2020
+LOAD0071,2021-01-07,2021-01-05,2,Samantula Granites and Marbles,China,Small Block High,200x100 Above,3.57,81054.7,289365.28,289365.28,Paid,False,2021
+LOAD0073,2021-01-07,2021-01-06,1,R P Granites,Poland,Small Block Low,200x100 Below,2.99,66902.91,200039.7,200039.7,Paid,False,2021
+LOAD0072,2021-01-12,2021-01-11,1,Sri Vishnu Granites Pvt Ltd,UK,Small Block High,200x100 Above,3.67,82019.0,301009.73,301009.73,Paid,False,2021
+LOAD0074,2021-02-03,2021-01-31,3,Universal Stone Exports,USA,Small Block Low,200x100 Below,2.85,67319.47,191860.49,191860.49,Paid,False,2021
+LOAD0076,2021-02-18,2021-02-15,3,R P Granites,USA,Big Block High,240x140 Above,4.15,100133.26,415553.03,415553.03,Paid,False,2021
+LOAD0075,2021-02-26,2021-02-25,1,Sri Vishnu Granites Pvt Ltd,USA,Small Block Low,200x100 Below,3.34,69482.64,232072.02,232072.02,Paid,False,2021
+LOAD0077,2021-03-01,2021-02-27,2,Sri Satya Surya Company,Poland,Small Block High,200x100 Above,3.24,83261.55,269767.42,269767.42,Paid,False,2021
+LOAD0078,2021-03-06,2021-03-03,3,Universal Stone Exports,China,Big Block Low,240x140 Below,4.28,90525.64,387449.74,387449.74,Paid,False,2021
+LOAD0080,2021-03-08,2021-03-07,1,Sri Vishnu Granites Pvt Ltd,USA,Gangsaw,Large Slab,5.24,111991.43,586835.09,586835.09,Paid,False,2021
+LOAD0079,2021-03-19,2021-03-16,3,Sri Satya Surya Company,Poland,Big Block Low,240x140 Below,3.75,89146.82,334300.58,334300.58,Paid,False,2021
+LOAD0082,2021-04-15,2021-04-14,1,Sri Satya Surya Company,Poland,Small Block Low,200x100 Below,3.49,67016.58,233887.86,233887.86,Paid,False,2021
+LOAD0081,2021-04-17,2021-04-16,1,R P Granites,USA,Gangsaw,Large Slab,4.72,115095.45,543250.52,543250.52,Paid,False,2021
+LOAD0083,2021-04-25,2021-04-23,2,United Universal Granites,India,Gangsaw,Large Slab,4.72,107739.43,508530.11,508530.11,Paid,False,2021
+LOAD0086,2021-05-05,2021-05-04,1,Sri Vishnu Granites Pvt Ltd,Poland,Small Block High,200x100 Above,3.99,81585.29,325525.31,325525.31,Paid,False,2021
+LOAD0085,2021-05-12,2021-05-11,1,Universal Stone Exports,China,Big Block High,240x140 Above,4.19,99636.98,417478.95,417478.95,Paid,False,2021
+LOAD0084,2021-05-22,2021-05-19,3,United Universal Granites,USA,Gangsaw,Large Slab,5.42,115045.73,623547.86,623547.86,Paid,False,2021
+LOAD0087,2021-06-21,2021-06-20,1,United Universal Granites,USA,Small Block High,200x100 Above,3.27,77065.48,252004.12,252004.12,Paid,True,2021
+LOAD0088,2021-07-18,2021-07-15,3,Universal Stone Exports,India,Small Block Low,200x100 Below,3.11,69427.7,215920.15,215920.15,Paid,True,2021
+LOAD0089,2021-08-27,2021-08-26,1,Sri Vishnu Granites Pvt Ltd,UK,Small Block Low,200x100 Below,2.53,69135.24,174912.16,174912.16,Paid,True,2021
+LOAD0091,2021-09-01,2021-08-30,2,United Universal Granites,USA,Gangsaw,Large Slab,4.91,107507.48,527861.73,527861.73,Paid,False,2021
+LOAD0090,2021-09-11,2021-09-10,1,R P Granites,UK,Big Block High,240x140 Above,4.38,104699.14,458582.23,458582.23,Paid,False,2021
+LOAD0092,2021-09-17,2021-09-16,1,R P Granites,UK,Small Block Low,200x100 Below,3.5,70388.02,246358.07,246358.07,Paid,False,2021
+LOAD0095,2021-10-08,2021-10-05,3,Universal Stone Exports,UK,Big Block High,240x140 Above,4.5,99762.11,448929.49,448929.49,Paid,False,2021
+LOAD0093,2021-10-10,2021-10-08,2,Samantula Granites and Marbles,USA,Big Block Low,240x140 Below,3.75,89554.9,335830.88,335830.88,Paid,False,2021
+LOAD0094,2021-10-13,2021-10-12,1,Sri Satya Surya Company,Poland,Small Block High,200x100 Above,3.23,81373.61,262836.76,262836.76,Paid,False,2021
+LOAD0098,2021-11-06,2021-11-04,2,Universal Stone Exports,USA,Big Block High,240x140 Above,4.64,100548.16,466543.46,466543.46,Paid,False,2021
+LOAD0096,2021-11-12,2021-11-11,1,R P Granites,China,Small Block High,200x100 Above,3.56,83013.23,295527.1,295527.1,Paid,False,2021
+LOAD0097,2021-11-21,2021-11-19,2,Universal Stone Exports,Poland,Big Block High,240x140 Above,4.81,104031.51,500391.56,500391.56,Paid,False,2021
+LOAD0100,2021-12-17,2021-12-16,1,Sri Satya Surya Company,China,Small Block Low,200x100 Below,2.65,72986.11,193413.19,193413.19,Paid,False,2021
+LOAD0099,2021-12-20,2021-12-19,1,Samantula Granites and Marbles,Poland,Gangsaw,Large Slab,5.28,108861.97,574791.2,574791.2,Paid,False,2021
