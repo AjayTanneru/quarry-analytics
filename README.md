@@ -1,5 +1,4 @@
 # Black Granite Quarry Export Analytics
-### Narasimhulagudem, Mahabubabad, Telangana, India
 
 ## Project Overview
 An end-to-end data analytics project based on real family data 
