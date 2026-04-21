@@ -1,18 +1,26 @@
 # Black Granite Quarry Export Analytics
 
+## Business Questions This Project Answers
+1. Which buyer generated the most revenue?
+2. Which country is our most profitable market?
+3. How did COVID-19 impact our exports?
+4. Which granite block type is most profitable?
+5. Which months are peak season vs slow season?
+6. How efficient is our dispatch process?
+   
 ## Project Overview
 An end-to-end data analytics project based on real family data 
 Business operations of a black granite quarry from 2018 to 2021.
 Built to analyse export performance, buyer behaviour, 
-seasonal patterns and COVID-19 business impact.
+seasonal patterns, and COVID-19 business impact.
 
 ## Business Background
 - **Business:** Black Granite Quarry Export Operations
-- **Location:** India
+- **Location:** Telangana, India
 - **Period:** 2018 - 2021
 - **Product:** Black Granite Blocks (Gangsaw, Big Block, Small Block)
 - **Markets:** USA, China, Poland, UK, India
-- **Buyers:** 6 real granite export companies
+- **Buyers:** 6 granite export companies
 
 ## Tools Used
 - **Python** - Data generation and analysis
@@ -20,6 +28,15 @@ seasonal patterns and COVID-19 business impact.
 - **Matplotlib & Seaborn** - Data visualisation
 - **Power BI** - Interactive dashboard
 - **GitHub** - Version control
+
+  ## Business Insights & Decisions
+| Business Question | Finding | Decision |
+| Best buyer? | Samantula Granites — ₹67.4 Lakhs | Prioritise this relationship |
+| Best market? | USA — ₹97 Lakhs revenue | Focus exports to USA |
+| COVID impact? | 67% revenue drop in 2020 | Plan emergency fund for crises |
+| Best block type? | Gangsaw — ₹1.02 Crores | Increase Gangsaw production |
+| Peak month? | March — ₹49 Lakhs | Stock up before March |
+| Worst season? | Jun-Aug — 90% fewer loads | Reduce costs in rainy season |
 
 ## Key Business Insights
 1. **COVID Impact** - 67% revenue drop in 2020 
@@ -34,7 +51,6 @@ seasonal patterns and COVID-19 business impact.
 
 ## Project Files
 | File | Description |
-|------|-------------|
 | `quarry_data.py` | Generates real quarry dataset |
 | `quarry_analysis.py` | Business intelligence analysis |
 | `quarry_charts.py` | 6 Python visualisation charts |
@@ -49,7 +65,6 @@ seasonal patterns and COVID-19 business impact.
 
 ## Business Summary
 | Metric | Value |
-|--------|-------|
 | Total Loads | 100 shipments |
 | Total Revenue | ₹3.58 Crores |
 | Total Cubic Meters | 391.98 m³ |
