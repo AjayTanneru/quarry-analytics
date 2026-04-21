@@ -3,14 +3,9 @@ import numpy as np
 
 np.random.seed(42)
 
-# ==============================
-# YOUR REAL BUSINESS DATA
 # Black Granite Quarry
-# Narasimhulagudem, Mahabubabad
-# Telangana, India
-# ==============================
 
-# YOUR REAL BUYERS
+# BUYERS
 buyers = [
     'Sri Vishnu Granites Pvt Ltd',
     'Universal Stone Exports',
@@ -21,7 +16,7 @@ buyers = [
 ]
 
 # BUYER DESTINATIONS
-# Your buyers exported to these countries
+# buyers exported countries
 destinations = ['USA', 'China', 'Poland', 'UK', 'India']
 
 # REAL BLOCK TYPES AND PRICES
@@ -53,7 +48,7 @@ block_types = {
     },
 }
 
-# REAL YEARLY DATA
+# YEARLY DATA
 # Normal years: 130-140 m3
 # COVID 2020: only 40 m3
 # 2021: 120 m3 (left Dec 28)
@@ -64,9 +59,7 @@ yearly_data = {
     2021: {'cubic_meters': 120, 'loads': 28},
 }
 
-# ==============================
 # GENERATE LOADS YEAR BY YEAR
-# ==============================
 
 records = []
 load_counter = 1
@@ -174,24 +167,24 @@ df = df.sort_values('dispatch_date').reset_index(drop=True)
 # Save to CSV
 df.to_csv('quarry_exports.csv', index=False)
 
-print("✅ Real Quarry Dataset Created!")
-print(f"📍 Location: Narasimhulagudem, Mahabubabad, Telangana")
-print(f"🪨 Product: Black Granite Blocks")
-print(f"📦 Total Loads: {len(df)}")
+print("Real Quarry Dataset Created!")
+print(f"Location: Narasimhulagudem, Mahabubabad, Telangana")
+print(f"Product: Black Granite Blocks")
+print(f"Total Loads: {len(df)}")
 print(
-    f"📅 Date Range: {df['dispatch_date'].min()} to {df['dispatch_date'].max()}")
-print(f"\n📊 Yearly Summary:")
+    f"Date Range: {df['dispatch_date'].min()} to {df['dispatch_date'].max()}")
+print(f"\n Yearly Summary:")
 yearly_summary = df.groupby('year').agg(
-    Loads=('load_id', 'count'),
+    Loads = ('load_id', 'count'),
     Cubic_Meters=('cubic_meters', 'sum'),
     Revenue=('total_revenue', 'sum')
 ).round(2)
 print(yearly_summary)
-print(f"\n💰 Overall Business Summary:")
+print(f"\n Overall Business Summary:")
 print(f"Total Revenue:    ₹{df['total_revenue'].sum():,.2f}")
 print(f"Total Loads:      {len(df)}")
 print(f"Total Buyers:     {df['buyer_name'].nunique()}")
 print(f"Total Markets:    {df['destination'].nunique()}")
-print(f"\n🏆 Top Buyers:")
+print(f"\n Top Buyers:")
 print(df.groupby('buyer_name')['total_revenue'].sum().sort_values(
     ascending=False).apply(lambda x: f"₹{x:,.2f}"))
