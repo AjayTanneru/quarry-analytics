@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import seaborn as sns
 
-# Load real quarry data
+# Load quarry data
 df = pd.read_csv('quarry_exports.csv')
 df['dispatch_date'] = pd.to_datetime(df['dispatch_date'])
 df['month_name'] = df['dispatch_date'].dt.strftime('%B')
@@ -14,10 +14,8 @@ sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (12, 6)
 plt.rcParams['font.size'] = 11
 
-# =====================
 # CHART 1
 # Top Buyers by Revenue
-# =====================
 plt.figure()
 buyer_revenue = df.groupby('buyer_name')['total_revenue'].sum().sort_values()
 colors = sns.color_palette('Blues', len(buyer_revenue))
@@ -28,12 +26,10 @@ plt.xlabel('Total Revenue (₹)')
 plt.tight_layout()
 plt.savefig('chart1_top_buyers.png', dpi=150)
 plt.show()
-print("✅ Chart 1 saved — Top Buyers!")
+print("Chart 1 saved — Top Buyers!")
 
-# =====================
 # CHART 2
 # Yearly Performance
-# =====================
 plt.figure()
 yearly = df.groupby('year')['total_revenue'].sum()
 bar_colors = ['#2ecc71', '#2ecc71', '#e74c3c', '#2ecc71']
@@ -51,12 +47,10 @@ for bar, val in zip(bars, yearly.values):
 plt.tight_layout()
 plt.savefig('chart2_yearly_performance.png', dpi=150)
 plt.show()
-print("✅ Chart 2 saved — Yearly Performance!")
+print("Chart 2 saved — Yearly Performance!")
 
-# =====================
 # CHART 3
 # Revenue by Destination
-# =====================
 plt.figure()
 dest_revenue = df.groupby('destination')[
     'total_revenue'].sum().sort_values(ascending=False)
@@ -68,12 +62,10 @@ plt.ylabel('Total Revenue (₹)')
 plt.tight_layout()
 plt.savefig('chart3_revenue_by_destination.png', dpi=150)
 plt.show()
-print("✅ Chart 3 saved — Revenue by Destination!")
+print("Chart 3 saved — Revenue by Destination!")
 
-# =====================
 # CHART 4
 # Revenue by Block Type
-# =====================
 plt.figure()
 block_revenue = df.groupby('block_type')[
     'total_revenue'].sum().sort_values(ascending=False)
@@ -86,12 +78,10 @@ plt.xticks(rotation=15)
 plt.tight_layout()
 plt.savefig('chart4_revenue_by_block.png', dpi=150)
 plt.show()
-print("✅ Chart 4 saved — Revenue by Block Type!")
+print("Chart 4 saved — Revenue by Block Type!")
 
-# =====================
 # CHART 5
 # Monthly Revenue Trend
-# =====================
 plt.figure()
 month_order = ['January', 'February', 'March', 'April', 'May', 'June',
                'July', 'August', 'September', 'October', 'November', 'December']
@@ -108,12 +98,10 @@ plt.ylabel('Total Revenue (₹)')
 plt.tight_layout()
 plt.savefig('chart5_monthly_trend.png', dpi=150)
 plt.show()
-print("✅ Chart 5 saved — Monthly Trend!")
+print("Chart 5 saved — Monthly Trend!")
 
-# =====================
 # CHART 6
 # Rainy vs Normal Season
-# =====================
 plt.figure()
 seasonal = df.groupby('is_rainy_season')['total_revenue'].sum()
 seasonal.index = ['Normal Season\n(9 months)', 'Rainy Season\n(3 months)']
@@ -131,7 +119,7 @@ plt.title('Revenue Split — Rainy vs Normal Season',
 plt.tight_layout()
 plt.savefig('chart6_seasonal_split.png', dpi=150)
 plt.show()
-print("✅ Chart 6 saved — Seasonal Split!")
+print("Chart 6 saved — Seasonal Split!")
 
-print("\n🎉 All 6 charts created and saved!")
-print("📁 Check your quarry_analytics folder for PNG files!")
+print("\nAll 6 charts created and saved!")
+print("Check your quarry_analytics folder for PNG files!")
