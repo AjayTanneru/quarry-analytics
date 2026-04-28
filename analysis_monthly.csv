@@ -1,0 +1,13 @@
+month_name,month_num,total_loads,total_revenue,season
+January  ,1,10,4551000.0,Normal Season
+February ,2,10,4371000.0,Normal Season
+March    ,3,13,6931000.0,Normal Season
+April    ,4,6,2646000.0,Normal Season
+May      ,5,10,4681000.0,Normal Season
+June     ,6,3,693000.0,Rainy Season
+July     ,7,4,1091000.0,Rainy Season
+August   ,8,3,630000.0,Rainy Season
+September,9,10,5515000.0,Normal Season
+October  ,10,9,3941000.0,Normal Season
+November ,11,10,4682000.0,Normal Season
+December ,12,12,5293000.0,Normal Season

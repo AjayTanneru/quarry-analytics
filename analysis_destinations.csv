@@ -1,0 +1,6 @@
+destination,total_loads,total_revenue,avg_revenue_per_load,revenue_percentage
+USA,28,15861000.0,566464.29,35.23
+China,24,12155000.0,506458.33,27.0
+India,22,7071000.0,321409.09,15.7
+Poland,14,5436000.0,388285.71,12.07
+UK,12,4502000.0,375166.67,10.0

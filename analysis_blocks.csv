@@ -1,0 +1,6 @@
+block_type,block_size,price_per_m3,total_loads,total_cubic_meters,total_revenue,avg_revenue_per_load
+Gangsaw,Large Slab,110000.0,34,194.1,21351000.0,627970.59
+Big Block High,240x140 Above,100000.0,22,103.1,10310000.0,468636.36
+Small Block High,200x100 Above,80000.0,19,69.2,5536000.0,291368.42
+Big Block Low,240x140 Below,90000.0,14,61.0,5490000.0,392142.86
+Small Block Low,200x100 Below,70000.0,11,33.4,2338000.0,212545.45
